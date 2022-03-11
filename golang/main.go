@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
-	
+	print("Code.education Rocks!")
 }

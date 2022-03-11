@@ -12,3 +12,4 @@ Criar uma imagem docker com um print usando Golang (A imagem deve ter menos de 2
    Rodar a imagem usando o Docker run  
    `docker run carlinhoscamilo/desafiogo`
    
+Link do repositório no Docker Hub -> https://hub.docker.com/repository/docker/carlinhoscamilo/desafiogo

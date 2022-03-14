@@ -12,6 +12,7 @@ services:
       - 8080:8080
     volumes:
       - .:/usr/src/www
+      - /usr/src/www/node_modules
     depends_on:
       - db
 
@@ -40,8 +41,6 @@ services:
       - "80:80"
     depends_on:
       - app
-
-
 
 networks:
   node-network:

@@ -20,5 +20,6 @@ Link do repositório no Docker Hub -> https://hub.docker.com/repository/docker/c
 App Node.js com banco de dados MySql, usando proxy reverso nginx.
 
 - Como rodar  
-   Usando o docker compose 
-  `docker-compose up -d --build`
+   Usando o docker compose  
+   `cd node-nginx`  
+   `docker-compose up -d --build`

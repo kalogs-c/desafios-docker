@@ -10,6 +10,7 @@ services:
     tty: true
     ports:
       - 8080:8080
+    entrypoint: dockerize --wait tcp://db:3306 -timeout 60s node app/server.js
     volumes:
       - .:/usr/src/www
       - /usr/src/www/node_modules
@@ -17,7 +18,9 @@ services:
       - db
 
   db:
-    image: mysql:5.7
+    build: 
+      context: .
+      dockerfile: Dockerfile.mysql
     command: --innodb-use-native-aio=0
     container_name: db
     restart: always

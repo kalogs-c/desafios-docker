@@ -21,4 +21,5 @@ App Node.js com banco de dados MySql, usando proxy reverso nginx.
 
 - Como rodar  
    Usando o docker compose 
-  `docker-compose up -d --build`
+   `cd node-nginx`
+   `docker-compose up -d --build`

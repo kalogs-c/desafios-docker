@@ -13,3 +13,12 @@ Criar uma imagem docker com um print usando Golang (A imagem deve ter menos de 2
    `docker run carlinhoscamilo/desafiogo`
    
 Link do repositório no Docker Hub -> https://hub.docker.com/repository/docker/carlinhoscamilo/desafiogo
+
+
+## Desafio 2
+
+App Node.js com banco de dados MySql, usando proxy reverso nginx.
+
+- Como rodar  
+   Usando o docker compose 
+  `docker-compose up -d --build`
